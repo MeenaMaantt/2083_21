@@ -1,6 +1,10 @@
 {
-    "name": "My Codespace",
-    "image": "mcr.microsoft.com/vscode/devcontainers/python:3",
-    "postCreateCommand": "chmod +x /workspaces/2083_21/Main.py"
+  "name": "My Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3",
+  "postCreateCommand": "chmod +x /workspaces/2083_21/Main.py",
+  "features": {
+    "ghcr.io/devcontainers/features/github-copilot:1": {}
   }
+}
+
   
